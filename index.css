@@ -1,5 +1,19 @@
+:root {
+    --primario: #97c93e; 
+    --primarioHover: #82ad36; 
+}
+
 .text-resaltar {
-    color: #97c93e !important;
+    color: var(--primario) !important;
+}
+
+.btn-verde {
+    background-color:  var(--primario);
+    color: white;
+}
+.btn-verde:hover{
+    background-color: var(--primarioHover);
+    color: whitesmoke;
 }
 
 #header img {
